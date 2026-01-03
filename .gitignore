@@ -1,0 +1,6 @@
+
+# secrets
+phishing-system/backend/user_tokens.json
+.env
+*.env
+
