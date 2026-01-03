@@ -1,0 +1,33 @@
+# Ignore trained model folders
+model-training/
+model_training/
+
+# Ignore datasets
+combined_dataset/
+dataset/
+data/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore logs
+*.log
+
+# Ignore environment variables
+.env
+
+# Ignore compiled model artifacts
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.h5
+
+# Ignore VS Code
+.vscode/

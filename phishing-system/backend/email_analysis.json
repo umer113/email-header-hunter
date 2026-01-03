@@ -1,0 +1,15 @@
+{
+  "users": {
+    "default_user": {
+      "emails": {},
+      "stats": {
+        "total_analyzed": 0,
+        "legit_count": 0,
+        "suspicious_count": 0,
+        "phishing_count": 0,
+        "last_updated": null
+      }
+    }
+  },
+  "system_start_time": "2025-11-26T02:08:01.954894"
+}

@@ -1,0 +1,1647 @@
+2025-07-04 03:16:45,527 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 03:16:45,531 - File: C:\Users\umer\Downloads\20021010_spam.tar\20021010_spam\spam\0012.7bc8e619ad0264979edce15083e70a02
+Result: 1. The label: "phishing"
+
+2. The email exhibits several phishing characteristics: the Return-Path domain "free4pornlovers.com" is suspicious and unrelated to any legitimate business. The From address uses a provocative and unprofessional name, "Young Sluts," which is a red flag. The email content is manipulative, using explicit language to entice clicks, and the presence of a "Click here to be removed" link is a common tactic in phishing emails to verify active email addresses. Additionally, there are no DKIM, SPF, or DMARC results provided, which are essential for verifying the authenticity of the sender.
+Tokens: Prompt=710, Completion=128, Total=838
+------------------------------
+2025-07-04 03:19:34,392 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 03:19:34,402 - File: C:\Users\umer\AppData\Local\Temp\tmp544yvml5.eml
+Result: 1. The label: "legit"
+
+2. The email passes DKIM, SPF, and DMARC checks, indicating it is likely sent from a legitimate source. The sender domain "twinehq.com" matches the DKIM signature and the Return-Path domain, and there are no domain mismatches. The content is consistent with a job opportunity email, and there are no suspicious links or manipulative language present.
+Tokens: Prompt=3299, Completion=85, Total=3384
+------------------------------
+2025-07-04 03:19:51,830 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 03:21:34,220 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 03:21:34,233 - File: C:\Users\umer\AppData\Local\Temp\tmp3yg1we0n.eml
+Result: 1. The label: "legit"
+
+2. Explanation: The email passes DKIM, SPF, and DMARC checks, indicating it is likely sent from a legitimate source. The sender domain "twinehq.com" matches the DKIM signature and the Return-Path domain, reducing the likelihood of spoofing. The content is consistent with a job opportunity email, and there are no suspicious links or manipulative language present.
+Tokens: Prompt=3299, Completion=86, Total=3385
+------------------------------
+2025-07-04 03:21:52,305 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 03:21:52,308 - File: C:\Users\umer\AppData\Local\Temp\tmp6aay3uyo.eml
+Result: Yes, you can determine the sender's IP address from the email headers. In the provided email headers, look for the "Received" fields. The sender's IP address is listed in the first "Received" line from the top. Here is the relevant part from your email headers:
+
+```
+Received: from a125-13.smtp-out.amazonses.com (a125-13.smtp-out.amazonses.com. [54.240.125.13]) by mx.google.com with ESMTPS id 71dfb90a1353d-52a7a0c2d53si427858e0c.154.2025.04.24.08.10.37 for <umerqadir113@gmail.com> (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+```
+
+The sender's IP address is `54.240.125.13`. This IP address corresponds to the Amazon SES (Simple Email Service), which suggests that the email was sent using Amazon's email service infrastructure.
+Tokens: Prompt=3051, Completion=220, Total=3271
+------------------------------
+2025-07-04 03:29:27,118 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 03:29:27,130 - File: C:\Users\umer\AppData\Local\Temp\tmp3zs43s08.eml
+Result: 1. The label: "phishing"
+
+2. The email exhibits several phishing indicators: the "From" address domain (s3.serveimage.com) does not match the "Return-Path" or "Sender" domains (linux.ie), suggesting a potential spoofing attempt. The body contains multiple suspicious hyperlinks leading to adclick.ws, a domain unrelated to the purported sender, and the content is promotional and manipulative, promising weight loss and other offers, which is typical of phishing or spam emails. Additionally, the email lacks DKIM, SPF, and DMARC authentication results, further raising suspicion.
+Tokens: Prompt=1304, Completion=122, Total=1426
+------------------------------
+2025-07-04 03:29:45,060 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 03:29:45,061 - File: C:\Users\umer\AppData\Local\Temp\tmppfrze8wn.eml
+Result: This email appears to be a classic example of spam rather than phishing, although it shares some characteristics with phishing attempts. Here are several indicators why it might be considered suspicious or potentially harmful:
+
+1. **Unsolicited Nature**: The email promotes various unrelated offers, which is typical of spam. It doesn't seem to be specifically targeted to the recipient, which is common in phishing attempts.
+
+2. **Malicious Links**: The email contains multiple links to the domain "adclick.ws," which could potentially lead to sites designed to gather personal information or install malware. In phishing, links often mimic legitimate sites to capture sensitive information.
+
+3. **Generic and Misleading Content**: The content includes various promotions that are likely too good to be true, such as guaranteed weight loss and free legal advice. Such content is often used to entice the reader to click on links.
+
+4. **Suspicious Sender and Language**: The sender's email address (`taylor@s3.serveimage.com`) does not match the purported sender "Offer Manager" or the list email (ilug@linux.ie), which raises red flags. Phishing attempts often involve using deceptive sender emails.
+
+5. **Manipulative Language**: Phrases like "Guaranteed to lose 10-12 lbs in 30 days" are designed to draw attention and prompt action, which is a common strategy in both spam and phishing emails.
+
+6. **Questionable Unsubscribe Link**: The email provides a link to unsubscribe which may not be legitimate. Clicking such links can sometimes be used to verify active email addresses for further spam or phishing attempts.
+
+The distinction between spam and phishing can be subtle. Spam generally attempts to sell a product or service, while phishing aims to obtain personal information under false pretenses. Though this email leans more towards spam, its potential for directing recipients to harmful websites overlaps with phishing tactics. Therefore, it's essential to exercise caution and avoid clicking any links or providing any personal information in response to such emails.
+Tokens: Prompt=1052, Completion=401, Total=1453
+------------------------------
+2025-07-04 03:29:57,150 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-04 03:29:57,157 - File: C:\Users\umer\AppData\Local\Temp\tmpu4okmkvg.eml
+Result: The sender's IP address, as revealed in the email headers, is `67.104.83.251`. This IP address is listed in the "Received" line from the email originating server:
+
+```
+Received: from email.qves.com ([67.104.83.251]) by lugh.tuatha.org ...
+```
+Tokens: Prompt=1055, Completion=67, Total=1122
+------------------------------
+2025-07-05 03:41:30,300 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 03:41:30,324 - File: C:\Users\umer\AppData\Local\Temp\tmp4_mzn2i9.eml
+Result: 1. The label: "legit"
+
+2. Explanation: The email passes DKIM, SPF, and DMARC checks, indicating it is likely sent from a legitimate source. The domain in the "From" address matches the sending domain, and there are no suspicious or obfuscated hyperlinks. The content is consistent with a typical newsletter update, lacking any urgent or manipulative language.
+Tokens: Prompt=2809, Completion=77, Total=2886
+------------------------------
+2025-07-05 03:42:19,224 - Error trying to connect to socket: closing socket - [Errno 11001] getaddrinfo failed
+2025-07-05 03:42:21,744 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 03:42:21,750 - File: C:\Users\umer\AppData\Local\Temp\tmpig7v3898.eml
+Result: 1. The label: "legit"
+
+2. Explanation: The email passes DKIM, SPF, and DMARC checks, indicating it is likely sent from a legitimate source. The domain in the "From" address matches the domain in the DKIM signature and the Return-Path, which is consistent with legitimate email practices. The content of the email is informative and lacks any urgent or manipulative language, and the links provided are to well-known and expected domains (railway.com and discord.com).
+Tokens: Prompt=2809, Completion=101, Total=2910
+------------------------------
+2025-07-05 03:52:50,133 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 03:52:50,139 - File: C:\Users\umer\AppData\Local\Temp\tmpxrvy05xf.eml
+Result: 1. The label: "legit"
+
+2. The email passes DKIM, SPF, and DMARC checks, indicating it is likely sent from a legitimate source. The domain in the "From" address matches the sending domain, and there are no suspicious or obfuscated links. The content is consistent with a typical newsletter update, lacking any urgent or manipulative language.
+Tokens: Prompt=2809, Completion=75, Total=2884
+------------------------------
+2025-07-05 03:53:38,058 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 03:53:38,068 - File: C:\Users\umer\AppData\Local\Temp\tmphh2hhfsb.eml
+Result: 1. The label: "legit"
+
+2. The email passes DKIM, SPF, and DMARC checks, indicating it is likely sent from a legitimate source. The domain in the "From" address matches the domain in the DKIM signature and the Return-Path, which is consistent. The content is professional and lacks any urgent or manipulative language, and the links appear to be legitimate and relevant to the content.
+Tokens: Prompt=2809, Completion=86, Total=2895
+------------------------------
+2025-07-05 21:38:51,531 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-05 21:38:51,569 - File: C:\Users\umer\AppData\Local\Temp\tmp_3s1vk54.eml
+Result: 1. The label: "legit"
+
+2. Explanation: The email passes DKIM, SPF, and DMARC checks, indicating it is likely sent from a legitimate source. The domain in the "From" address matches the sending domain, and there are no signs of domain mismatches. The content is consistent with a typical newsletter update, and there are no urgent or manipulative language cues. The links appear to be legitimate and related to the content of the email.
+Tokens: Prompt=2809, Completion=95, Total=2904
+------------------------------
+2025-07-09 00:49:18,828 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 00:49:18,870 - File: C:\Users\umer\Downloads\20021010_spam.tar\20021010_spam\spam\0012.7bc8e619ad0264979edce15083e70a02
+Result: 1. The label: "phishing"
+
+2. The email exhibits several phishing indicators: the Return-Path domain "free4pornlovers.com" is suspicious and unrelated to any legitimate business. The email content uses manipulative language to entice clicks, such as "Click Here Now!" and "XXX Free Tour!", which are common in phishing attempts. Additionally, the email lacks any DKIM, SPF, or DMARC authentication results, further suggesting it is not from a legitimate source.
+Tokens: Prompt=710, Completion=98, Total=808
+------------------------------
+2025-07-09 00:54:06,374 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-07-09 00:56:01,035 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 00:56:01,044 - File: C:\Users\umer\Downloads\20021010_spam.tar\20021010_spam\spam\0012.7bc8e619ad0264979edce15083e70a02
+Result: ```json
+{
+  "verdict": "\U0001f6ab Phishing",
+  "reason": "The email exhibits several characteristics typical of phishing or spam. The sender's domain 'free4pornlovers.com' is highly suspicious and indicative of adult content spam. The subject line and body content are explicit and designed to entice clicks through sensational and inappropriate content. The email encourages clicking on links with promises of adult content, which is a common tactic to lead recipients to malicious websites. Additionally, the 'Click here to be removed' link is a common phishing tactic to verify active email addresses for further spam. The email headers show that it was sent from a domain associated with adult content, which is not a legitimate or trusted source.",
+  "suspicious_elements": [
+    "From: simplyamateur@free4pornlovers.com",
+    "Domain: free4pornlovers.com",
+    "Subject: wives and girlfriends cheating and whoring around",
+    "Body content: Click Here Now ! Simply Amateur Just like the girl next door. XXX Free Tour ! First time photos !Sneeky hidden cams !Nude exibitionists !Cheating Wives and Girlfriends !",
+    "Phrase: Click here to be removed"
+  ]
+}
+```
+Tokens: Prompt=733, Completion=255, Total=988
+------------------------------
+2025-07-09 01:02:07,326 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:02:07,693 - File: C:\Users\umer\AppData\Local\Temp\tmpnjgmatk7
+Result: ```json
+{
+  "verdict": "\u2705 Legit",
+  "reason": "The email appears to be a legitimate communication from Railway, a service that provides updates and changelogs to its users. The email headers show proper authentication with DKIM and SPF passing for the domain 'railway.app'. The email is sent from a subdomain 'news.railway.app', which is consistent with marketing or update emails. The body content is professional, includes links to the official Railway website and Discord, and provides an unsubscribe option, which is typical for legitimate marketing emails.",
+  "suspicious_elements": []
+}
+```
+Tokens: Prompt=2832, Completion=126, Total=2958
+------------------------------
+2025-07-09 01:13:56,918 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:13:57,059 - File: C:\Users\umer\AppData\Local\Temp\tmpzuto4ufy
+Result: ```json
+{
+  "verdict": "\u2705 Legit",
+  "reason": "The email appears to be a legitimate communication from Railway, a known service. The headers show proper DKIM, SPF, and DMARC authentication passes, indicating that the email was sent from a verified source. The email content is consistent with a typical newsletter or update from a service, including links to their changelog and Discord community, which are common practices for tech companies. The language and tone are professional and do not exhibit typical phishing characteristics such as urgency or requests for sensitive information.",
+  "suspicious_elements": []
+}
+```
+Tokens: Prompt=2832, Completion=124, Total=2956
+------------------------------
+2025-07-09 01:14:24,796 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:14:24,820 - File: C:\Users\umer\AppData\Local\Temp\tmp0ocwwtml
+Result: ```json
+{
+  "verdict": "\u2705 Legit",
+  "reason": "The email appears to be a legitimate discussion among developers on a mailing list related to EXMH, a mail user agent for Unix. The headers show a consistent and logical path through known servers associated with the mailing list, and the content of the email is technical and specific to software development issues, which is typical for such mailing lists. There are no signs of phishing attempts such as requests for personal information, suspicious links, or urgent calls to action.",
+  "suspicious_elements": []
+}
+```
+Tokens: Prompt=3864, Completion=117, Total=3981
+------------------------------
+2025-07-09 01:14:42,090 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:14:42,104 - File: C:\Users\umer\AppData\Local\Temp\tmpmjyw83ke
+Result: ```json
+{
+  "verdict": "\U0001f6ab Phishing",
+  "reason": "The email exhibits several characteristics typical of phishing attempts. The sender's email address (fort@bluemail.dk) does not match the purported Fortune 500 company, which is not named, raising suspicion. The email promotes a work-from-home opportunity with promises of high income and no required experience, a common lure in phishing schemes. The body contains grammatical errors and awkward phrasing, such as 'employement specialist' and 'than click on the link,' which are often found in phishing emails. The links provided (http://www.basetel.com/wealthnow and http://www.basetel.com/remove.html) are suspicious as they do not correspond to a known Fortune 500 company domain. Additionally, the email lacks specific details about the job or company, which is unusual for legitimate job offers.",
+  "suspicious_elements": [
+    "fort@bluemail.dk",
+    "http://www.basetel.com/wealthnow",
+    "http://www.basetel.com/remove.html",
+    "Grammatical errors and awkward phrasing",
+    "Lack of specific company details"
+  ]
+}
+```
+Tokens: Prompt=963, Completion=242, Total=1205
+------------------------------
+2025-07-09 01:23:33,601 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:23:33,722 - File: C:\Users\umer\AppData\Local\Temp\tmp7v4hkqqm
+Result: ```json
+{
+  "verdict": "\U0001f6ab Phishing",
+  "reason": "The email exhibits multiple characteristics of a phishing or scam attempt. The sender's email address (Thecashsystem@firemail.de) is not associated with any legitimate financial institution. The email content promotes a 'gifting program' which is a common type of financial scam, promising unrealistic returns on investment. The language used is urgent and manipulative, attempting to pressure the recipient into participating. Additionally, the email includes testimonials that are likely fabricated to lend credibility to the scam. The request for personal information via fax or phone call is a red flag, as legitimate financial opportunities do not typically operate in this manner. The mention of compliance with an email bill is misleading and often used in spam to feign legitimacy.",
+  "suspicious_elements": [
+    "Thecashsystem@firemail.de",
+    "Gifting program",
+    "Unrealistic financial returns",
+    "Urgent and manipulative language",
+    "Request for personal information",
+    "Misleading legal compliance statement"
+  ]
+}
+```
+Tokens: Prompt=1375, Completion=221, Total=1596
+------------------------------
+2025-07-09 01:23:45,893 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:23:45,907 - File: C:\Users\umer\AppData\Local\Temp\tmpsz1ge2w0
+Result: ```json
+{
+  "verdict": "\U0001f6ab Phishing",
+  "reason": "The email exhibits several characteristics typical of phishing or spam emails. The sender's email address is from a free email service (Yahoo), which is often used in phishing attempts. The subject line 'MULTIPLY YOUR CUSTOMER BASE!' and the body content promote a suspiciously low-cost email marketing service, which is a common lure in spam emails. The email requests personal and business information via a fax number, which is unusual and suspicious. Additionally, the email is sent to multiple recipients, which is a common tactic in spam campaigns. The email headers show a complex and potentially spoofed path, with multiple 'Received' lines that could indicate an attempt to obscure the true origin of the email.",
+  "suspicious_elements": [
+    "suz0123893616943@yahoo.com",
+    "MULTIPLY YOUR CUSTOMER BASE!",
+    "fax this information form to 309-407-7378",
+    "COST EFFECTIVE Direct Email Advertising",
+    "Promote Your Business For As Low As $50 Per 1 Million Email Addresses"
+  ]
+}
+```
+Tokens: Prompt=1070, Completion=234, Total=1304
+------------------------------
+2025-07-09 01:26:11,250 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:26:11,377 - File: C:\Users\umer\AppData\Local\Temp\tmpmz19yk16
+Result: ```json
+{
+  "verdict": "\U0001f6ab Phishing",
+  "reason": "The email exhibits several characteristics typical of phishing or spam emails. The sender's email address is from a free email service (Yahoo), which is often used in phishing attempts. The subject line 'MULTIPLY YOUR CUSTOMER BASE!' is a common marketing ploy used in spam. The body of the email promotes a service that sounds too good to be true, offering email advertising at an unrealistically low price, which is a common tactic to lure victims. Additionally, the email requests personal and business information via a fax number, which is unusual and suspicious. The email lacks personalization and contains generic language, further indicating it is not a legitimate business communication.",
+  "suspicious_elements": [
+    "suz0123893616943@yahoo.com",
+    "MULTIPLY YOUR CUSTOMER BASE!",
+    "fax this information form to 309-407-7378",
+    "COST EFFECTIVE Direct Email Advertising",
+    "Promote Your Business For As Low As $50 Per 1 Million Email Addresses"
+  ]
+}
+```
+Tokens: Prompt=1070, Completion=226, Total=1296
+------------------------------
+2025-07-09 01:26:28,875 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:26:28,889 - File: C:\Users\umer\AppData\Local\Temp\tmpmt_23u1l
+Result: ```json
+{
+  "verdict": "\U0001f6ab Phishing",
+  "reason": "The email exhibits several characteristics typical of phishing or spam. The body of the email contains exaggerated claims about a health product that reverses aging and burns fat without effort, which is a common tactic used in scams. The email also includes a suspicious link to a non-reputable domain (web.kuhleersparnis.ch) and an unsubscribe link that uses a mailto address, which is unusual and potentially a method to confirm active email addresses. The headers show a complex chain of received servers, which is often used to obscure the true origin of the email. Additionally, the email claims to be from a mailing list but provides no legitimate way to verify or manage subscription preferences.",
+  "suspicious_elements": [
+    "web.kuhleersparnis.ch",
+    "mailto:affiliateoptout@btamail.net.cn",
+    "Exaggerated health claims",
+    "Complex received path in headers"
+  ]
+}
+```
+Tokens: Prompt=981, Completion=208, Total=1189
+------------------------------
+2025-07-09 01:26:50,633 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:26:50,648 - File: C:\Users\umer\AppData\Local\Temp\tmpqxlvaz38
+Result: ```json
+{
+  "verdict": "\U0001f6ab Phishing",
+  "reason": "The email exhibits multiple characteristics typical of phishing or spam. The sender's email address and domain (rkkss@redseven.de) do not match the purported content or any known legitimate health or wellness organization. The email promotes a 'health discovery' with exaggerated claims and guarantees, which is a common tactic in phishing and scam emails. The body contains a suspicious link (http://web.kuhleersparnis.ch/hgh/index.html) that does not correspond to any known reputable health site and could potentially lead to a phishing site. Additionally, the unsubscribe link uses a mailto: address (affiliateoptout@btamail.net.cn), which is unusual and unprofessional for legitimate businesses. The email also uses urgency and too-good-to-be-true claims to entice the recipient.",
+  "suspicious_elements": [
+    "rkkss@redseven.de",
+    "http://web.kuhleersparnis.ch/hgh/index.html",
+    "mailto:affiliateoptout@btamail.net.cn",
+    "Exaggerated health claims",
+    "Unprofessional unsubscribe method"
+  ]
+}
+```
+Tokens: Prompt=981, Completion=246, Total=1227
+------------------------------
+2025-07-09 01:28:28,005 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:28:28,013 - File: C:\Users\umer\AppData\Local\Temp\tmpjurq9lad
+Result: ```json
+{
+  "verdict": "\u2705 Legit",
+  "reason": "The email appears to be a legitimate message from the Irish Linux Users' Group mailing list. The headers show a consistent path from a known mailing list server (linux.ie) and the content of the email is a typical discussion about MacOSX, which is relevant to the interests of a Linux user group. There are no signs of phishing attempts such as requests for personal information, suspicious links, or urgent calls to action.",
+  "suspicious_elements": []
+}
+```
+Tokens: Prompt=1234, Completion=112, Total=1346
+------------------------------
+2025-07-09 01:28:39,611 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:28:39,622 - File: C:\Users\umer\AppData\Local\Temp\tmp15oas_8w
+Result: ```json
+{
+  "verdict": "\u2705 Legit",
+  "reason": "The email appears to be a legitimate message from the Irish Linux Users' Group mailing list. The headers show a consistent path from a known mailing list server (linux.ie) and the content is typical of a discussion on a technical mailing list. The sender's email address (bauwolf@indigo.ie) matches the domain used in the email path, and there are no signs of spoofing or phishing attempts. The message content is a casual discussion about MacOSX, which aligns with the subject and context of a Linux user group.",
+  "suspicious_elements": []
+}
+```
+Tokens: Prompt=1234, Completion=135, Total=1369
+------------------------------
+2025-07-09 01:28:47,796 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:30:24,883 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:30:24,895 - File: C:\Users\umer\AppData\Local\Temp\tmpp_t0jy82
+Result: \U0001f510 **Phishing Detection**:
+
+```json
+{
+    "verdict": "\u2705 Legit",
+    "reason": "The email appears to be a legitimate message from the Irish Linux Users' Group mailing list. The headers show consistent and expected routing through known servers, and the content is typical of a technical discussion.",
+    "suspicious_elements": []
+}
+```
+Tokens: Prompt=1218, Completion=75, Total=1293
+------------------------------
+2025-07-09 01:30:39,491 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:30:39,498 - File: C:\Users\umer\AppData\Local\Temp\tmpb9p77mc_
+Result: \U0001f510 **Phishing Detection**:
+
+```json
+{
+    "verdict": "\u2705 Legit",
+    "reason": "The email appears to be a legitimate message from a mailing list associated with the Irish Linux Users' Group. The headers and content do not exhibit typical phishing characteristics.",
+    "suspicious_elements": []
+}
+```
+Tokens: Prompt=1218, Completion=68, Total=1286
+------------------------------
+2025-07-09 01:30:48,927 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:31:55,435 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:31:55,472 - File: C:\Users\umer\AppData\Local\Temp\tmpki8y83e0
+Result: \U0001f4e1 Sender IP Address: 62.17.162.83 (from the Received header)
+Tokens: Prompt=1220, Completion=20, Total=1240
+------------------------------
+2025-07-09 01:32:07,815 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:32:07,828 - File: C:\Users\umer\AppData\Local\Temp\tmp7x8spplh
+Result: \U0001f4e1 Sender IP Address: 62.17.162.83 (from the Received header)
+Tokens: Prompt=1220, Completion=20, Total=1240
+------------------------------
+2025-07-09 01:32:18,531 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:32:43,796 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:32:43,913 - File: C:\Users\umer\AppData\Local\Temp\tmp2ay_5pjw
+Result: \U0001f4e1 Sender IP Address: 62.17.162.83 (from the Received header)
+Tokens: Prompt=1220, Completion=20, Total=1240
+------------------------------
+2025-07-09 01:32:56,083 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 01:32:56,094 - File: C:\Users\umer\AppData\Local\Temp\tmp0g5spde1
+Result: \U0001f4e1 Sender IP Address: 62.17.162.83 (from the Received header)
+Tokens: Prompt=1220, Completion=20, Total=1240
+------------------------------
+2025-07-09 01:33:06,525 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 02:12:26,840 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 02:12:27,055 - File: C:\Users\umer\AppData\Local\Temp\tmpxk13pb69
+Result: \U0001f4e1 Sender IP Address: 62.17.27.129 (from the first Received header)
+Tokens: Prompt=1436, Completion=21, Total=1457
+------------------------------
+2025-07-09 02:12:42,488 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 02:12:42,512 - File: C:\Users\umer\AppData\Local\Temp\tmprxg3xkd_
+Result: \U0001f4e1 Sender IP Address: 62.17.27.129 (from the first non-localhost Received header)
+Tokens: Prompt=1436, Completion=24, Total=1460
+------------------------------
+2025-07-09 02:12:55,456 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 02:20:30,798 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 02:20:30,807 - File: C:\Users\umer\AppData\Local\Temp\tmpdix7c8hm
+Result: \U0001f4e1 Sender IP Address: 62.17.162.83 (from first Received header)
+Tokens: Prompt=1573, Completion=20, Total=1593
+------------------------------
+2025-07-09 02:20:47,043 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 02:20:47,053 - File: C:\Users\umer\AppData\Local\Temp\tmp_kkkey15
+Result: What would you like to know about this email?
+Tokens: Prompt=1573, Completion=10, Total=1583
+------------------------------
+2025-07-09 02:20:53,849 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 02:21:58,082 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 02:21:58,851 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 02:21:58,869 - File: C:\Users\umer\AppData\Local\Temp\tmp82i5z3og
+Result: If you have any specific questions about the email headers or body, feel free to ask!
+Tokens: Prompt=1505, Completion=18, Total=1523
+------------------------------
+2025-07-09 02:34:29,797 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 02:34:29,811 - File: C:\Users\umer\AppData\Local\Temp\tmpf3xnrs2d
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email appears to be a legitimate discussion among developers on a mailing list, with no signs of phishing attempts.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3833, Completion=46, Total=3879
+------------------------------
+2025-07-09 02:34:51,589 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 02:34:51,604 - File: C:\Users\umer\AppData\Local\Temp\tmpiiqcbimw
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email appears to be a legitimate discussion among developers regarding software issues and fixes.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3833, Completion=40, Total=3873
+------------------------------
+2025-07-09 02:34:52,466 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:22:27,855 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:22:30,660 - File: C:\Users\umer\AppData\Local\Temp\tmpjcm8yi1n
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email passes SPF, DKIM, and DMARC checks, and the content is consistent with a legitimate newsletter from Railway.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=2801, Completion=49, Total=2850
+------------------------------
+2025-07-09 20:44:08,937 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:44:08,951 - File: C:\Users\umer\AppData\Local\Temp\tmpg5efyigs
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email passes DKIM, SPF, and DMARC checks, and the content is consistent with a legitimate newsletter from Railway.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=2801, Completion=49, Total=2850
+------------------------------
+2025-07-09 20:56:38,339 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:56:38,438 - File: C:\Users\umer\AppData\Local\Temp\tmpv30udox2
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a legitimate source, MyFonts, and contains expected content such as webinar promotions.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=44, Total=3075
+------------------------------
+2025-07-09 20:59:17,308 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 20:59:17,321 - File: C:\Users\umer\AppData\Local\Temp\tmpccwj09l6
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from MyFonts, a known and legitimate source, and the headers show proper authentication with DKIM, SPF, and DMARC passing.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=54, Total=3085
+------------------------------
+2025-07-09 21:00:13,424 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:00:13,543 - File: C:\Users\umer\AppData\Local\Temp\tmpxwmeoxdq
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a known and legitimate source, MyFonts, and contains typical newsletter content.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=43, Total=3074
+------------------------------
+2025-07-09 21:01:28,306 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:01:28,320 - File: C:\Users\umer\AppData\Local\Temp\tmpt0h7lkyq
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a known and legitimate source, MyFonts, and contains typical newsletter content.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=43, Total=3074
+------------------------------
+2025-07-09 21:15:57,125 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:15:58,269 - File: C:\Users\umer\AppData\Local\Temp\tmpu21lw43d
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a legitimate source, MyFonts, and contains valid DKIM, SPF, and DMARC authentication results.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=49, Total=3080
+------------------------------
+2025-07-09 21:56:53,915 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 21:56:58,429 - File: C:\Users\umer\AppData\Local\Temp\tmps15irzwf
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a known sender (MyFonts) and contains typical newsletter content.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=41, Total=3072
+------------------------------
+2025-07-09 23:26:59,169 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:27:03,235 - File: C:\Users\umer\AppData\Local\Temp\tmpole8kv8x.eml
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a legitimate source, MyFonts, and includes proper authentication with DKIM, SPF, and DMARC passing.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=50, Total=3081
+------------------------------
+2025-07-09 23:27:13,151 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:27:14,174 - File: C:\Users\umer\AppData\Local\Temp\tmptgab_twe.eml
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a legitimate source, MyFonts, and contains valid DKIM, SPF, and DMARC authentication results.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=49, Total=3080
+------------------------------
+2025-07-09 23:31:18,997 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:31:19,116 - File: C:\Users\umer\AppData\Local\Temp\tmp7j9c51ye
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a legitimate source, MyFonts, and contains valid DKIM, SPF, and DMARC authentication results.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=49, Total=3080
+------------------------------
+2025-07-09 23:33:02,104 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:33:02,127 - File: C:\Users\umer\AppData\Local\Temp\tmpyh1g3dnc
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from MyFonts, a known service, and the headers show proper authentication with DKIM, SPF, and DMARC passing.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=52, Total=3083
+------------------------------
+2025-07-09 23:41:25,619 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:41:25,634 - File: C:\Users\umer\AppData\Local\Temp\tmp867u4ogp
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a legitimate source, MyFonts, and contains expected content such as webinar promotions.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=44, Total=3075
+------------------------------
+2025-07-09 23:41:31,850 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:41:31,873 - File: C:\Users\umer\AppData\Local\Temp\tmp3tu50240
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from MyFonts, a known service, and the headers show proper authentication with DKIM, SPF, and DMARC passing.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=52, Total=3083
+------------------------------
+2025-07-09 23:41:55,326 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:41:55,337 - File: C:\Users\umer\AppData\Local\Temp\tmpymbz0kk7
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a legitimate source, MyFonts, and contains expected content such as webinar promotions.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=44, Total=3075
+------------------------------
+2025-07-09 23:43:45,530 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:43:45,541 - File: C:\Users\umer\AppData\Local\Temp\tmpbi54z5ft
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from MyFonts, a known service, and the headers show proper authentication with DKIM, SPF, and DMARC passing.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=52, Total=3083
+------------------------------
+2025-07-09 23:43:49,427 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:43:49,446 - File: C:\Users\umer\AppData\Local\Temp\tmpehgi0tu_
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from MyFonts, a known service, and the headers show proper authentication with DKIM, SPF, and DMARC passing.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=52, Total=3083
+------------------------------
+2025-07-09 23:46:01,266 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:46:01,277 - File: C:\Users\umer\AppData\Local\Temp\tmp6joa5hbp
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a legitimate source, MyFonts, and contains expected content such as webinar promotions.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=44, Total=3075
+------------------------------
+2025-07-09 23:46:05,834 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:46:05,848 - File: C:\Users\umer\AppData\Local\Temp\tmp1cut1pjp
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from MyFonts, a known service, and the headers show proper authentication with DKIM, SPF, and DMARC passing.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3031, Completion=52, Total=3083
+------------------------------
+2025-07-09 23:50:22,458 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:50:22,475 - File: C:\Users\umer\AppData\Local\Temp\tmp5g_5ae2m
+Result: {
+    "verdict": "\U0001f6ab Phishing",
+    "reason": "The email contains a classic advance-fee fraud scheme, commonly known as a 'Nigerian Prince' scam.",
+    "suspicious_elements": [
+        "coll2001ng@mail.com",
+        "smith_j@mailsurf.com",
+        "CENTRAL BANK OF NIGERIA",
+        "US$37,400,000.00",
+        "request for personal information and bank details"
+    ]
+}
+Tokens: Prompt=1624, Completion=102, Total=1726
+------------------------------
+2025-07-10 00:28:03,672 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 00:28:03,819 - File: C:\Users\umer\AppData\Local\Temp\tmpk9x4uqi4
+Result: {
+    "verdict": "\U0001f6ab Phishing",
+    "reason": "The email promotes a significant discount on courses and asks for personal information through a form. The opt-out link and legal notice are suspicious.",
+    "suspicious_elements": [
+        "iq@insurancemail.net",
+        "mail1.insuranceiq.com",
+        "http://www.InsuranceIQ.com/optout",
+        "http://www.insuranceiq.com/legal.htm"
+    ]
+}
+Tokens: Prompt=1004, Completion=100, Total=1104
+------------------------------
+2025-07-10 00:28:27,195 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 00:28:27,217 - File: C:\Users\umer\AppData\Local\Temp\tmp7xao2389
+Result: {
+    "verdict": "\U0001f6ab Phishing",
+    "reason": "The email promotes a significant discount on courses and requests personal information through a form. The opt-out link and legal notice are suspicious.",
+    "suspicious_elements": [
+        "iq@insurancemail.net",
+        "mail1.insuranceiq.com",
+        "http://www.InsuranceIQ.com/optout",
+        "http://www.insuranceiq.com/legal.htm"
+    ]
+}
+Tokens: Prompt=1004, Completion=99, Total=1103
+------------------------------
+2025-07-10 00:29:59,329 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 00:29:59,342 - File: C:\Users\umer\AppData\Local\Temp\tmphouxr_l6
+Result: {
+    "verdict": "\U0001f6ab Phishing",
+    "reason": "The email promotes a significant discount on courses and requests personal information through a form. The opt-out link and legal notice are suspicious.",
+    "suspicious_elements": [
+        "iq@insurancemail.net",
+        "mail1.insuranceiq.com",
+        "http://www.InsuranceIQ.com/optout",
+        "http://www.insuranceiq.com/legal.htm"
+    ]
+}
+Tokens: Prompt=1004, Completion=99, Total=1103
+------------------------------
+2025-07-10 00:30:00,265 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 01:53:52,920 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 01:53:53,050 - File: C:\Users\umer\AppData\Local\Temp\tmpxg7oqh4c
+Result: {
+    "verdict": "\U0001f6ab Phishing",
+    "reason": "The email promotes purchasing medication without a prescription, which is a common tactic in phishing and spam emails. It also contains suspicious links.",
+    "suspicious_elements": [
+        "meg34807147238s03@isppan.waw.pl",
+        "http://194.44.46.21/remove.php",
+        "Order your Viagra and weight-loss here"
+    ]
+}
+Tokens: Prompt=1093, Completion=95, Total=1188
+------------------------------
+2025-07-10 01:54:42,397 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 01:54:42,424 - File: C:\Users\umer\AppData\Local\Temp\tmp09cm__lv
+Result: {
+    "verdict": "\U0001f6ab Phishing",
+    "reason": "The email contains multiple suspicious links and unsolicited offers, which are common characteristics of phishing attempts.",
+    "suspicious_elements": [
+        "paco@s3.serveimage.com",
+        "http://www.adclick.ws/p.cfm?o=315&s=pk007",
+        "http://www.adclick.ws/p.cfm?o=249&s=pk007",
+        "http://www.adclick.ws/p.cfm?o=245&s=pk002",
+        "http://www.adclick.ws/p.cfm?o=259&s=pk007",
+        "http://www.adclick.ws/p.cfm?o=283&s=pk007",
+        "http://www.qves.com/trim/?zzzz@spamassassin.taint.org%7C17%7C308417"
+    ]
+}
+Tokens: Prompt=1024, Completion=187, Total=1211
+------------------------------
+2025-07-10 01:55:22,916 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 01:55:23,099 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 01:55:23,218 - File: C:\Users\umer\AppData\Local\Temp\tmpt1tes6e8
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a verified domain (anthropic.com) with valid DKIM, SPF, and DMARC authentication results.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4061, Completion=49, Total=4110
+------------------------------
+2025-07-10 01:55:53,528 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 01:55:53,555 - File: C:\Users\umer\AppData\Local\Temp\tmpr04z8agr
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a verified domain (anthropic.com) with valid DKIM, SPF, and DMARC authentication results.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4061, Completion=49, Total=4110
+------------------------------
+2025-07-10 02:00:19,666 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 02:00:19,693 - File: C:\Users\umer\AppData\Local\Temp\tmpcnd4r69k
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a verified domain (anthropic.com) with valid DKIM, SPF, and DMARC authentication results.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4061, Completion=49, Total=4110
+------------------------------
+2025-07-10 02:00:22,559 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 04:27:55,487 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 04:27:55,668 - File: C:\Users\umer\AppData\Local\Temp\tmpak_4va58
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a verified domain (anthropic.com) with valid DKIM, SPF, and DMARC authentication results.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4061, Completion=49, Total=4110
+------------------------------
+2025-07-10 04:28:57,676 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 04:28:57,728 - File: C:\Users\umer\AppData\Local\Temp\tmp3zc4hsbs
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a verified domain (anthropic.com) with valid DKIM, SPF, and DMARC authentication results.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4061, Completion=49, Total=4110
+------------------------------
+2025-07-10 04:29:30,802 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-10 04:29:30,830 - File: C:\Users\umer\AppData\Local\Temp\tmpry6viqph
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a verified domain (anthropic.com) with valid DKIM, SPF, and DMARC authentication results.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4061, Completion=49, Total=4110
+------------------------------
+2025-07-10 04:29:32,301 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-16 03:07:27,740 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-10 17:41:43,920 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-10 17:44:21,920 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-10 17:44:23,814 - File: C:\Users\umer\AppData\Local\Temp\tmpvdo6p9uu
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4715, Completion=53, Total=4768
+------------------------------
+2025-09-10 17:45:25,700 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-10 17:45:25,754 - File: C:\Users\umer\AppData\Local\Temp\tmpi1zmvn6k
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4715, Completion=53, Total=4768
+------------------------------
+2025-09-10 17:46:57,062 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-10 17:46:58,225 - File: C:\Users\umer\AppData\Local\Temp\tmp3hmm321m.eml
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4715, Completion=53, Total=4768
+------------------------------
+2025-09-10 17:47:57,428 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 02:52:27,633 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 02:52:29,719 - File: C:\Users\umer\AppData\Local\Temp\tmpexvip7_i
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a verified domain (anthropic.com) with valid DKIM, SPF, and DMARC authentication results.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4061, Completion=49, Total=4110
+------------------------------
+2025-09-11 02:53:02,803 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 02:53:02,839 - File: C:\Users\umer\AppData\Local\Temp\tmpxr136ipq
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from a known domain (anthropic.com) with valid DKIM, SPF, and DMARC authentication results. It appears to be a marketing email from Anthropic.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4061, Completion=60, Total=4121
+------------------------------
+2025-09-11 02:53:52,365 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 02:53:52,410 - File: C:\Users\umer\AppData\Local\Temp\tmppkulafmm
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4715, Completion=53, Total=4768
+------------------------------
+2025-09-11 02:58:50,129 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 02:58:50,251 - File: C:\Users\umer\AppData\Local\Temp\tmpjc9h4r89
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4715, Completion=53, Total=4768
+------------------------------
+2025-09-11 03:05:14,825 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 03:05:14,878 - File: C:\Users\umer\AppData\Local\Temp\tmp603hrlc6
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4715, Completion=53, Total=4768
+------------------------------
+2025-09-11 03:06:38,118 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 03:06:38,243 - File: C:\Users\umer\AppData\Local\Temp\tmpvtgfxv98
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4715, Completion=53, Total=4768
+------------------------------
+2025-09-11 03:08:53,266 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 03:08:53,405 - File: C:\Users\umer\AppData\Local\Temp\tmphk6mo6ef
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=4715, Completion=53, Total=4768
+------------------------------
+2025-09-11 03:11:32,617 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 03:11:32,637 - File: C:\Users\umer\AppData\Local\Temp\tmph3k_58gc
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a well-known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3137, Completion=54, Total=3191
+------------------------------
+2025-09-11 03:12:26,585 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 03:12:26,621 - File: C:\Users\umer\AppData\Local\Temp\tmpbj1g62ef
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a well-known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3137, Completion=54, Total=3191
+------------------------------
+2025-09-11 03:20:18,006 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 03:20:18,153 - File: C:\Users\umer\AppData\Local\Temp\tmpbj_txzi8
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a well-known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3137, Completion=54, Total=3191
+------------------------------
+2025-09-11 03:20:48,909 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 03:21:21,044 - File: C:\Users\umer\AppData\Local\Temp\tmpmzqbnenj
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a well-known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3137, Completion=54, Total=3191
+------------------------------
+2025-09-11 03:24:04,959 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 03:24:04,980 - File: C:\Users\umer\AppData\Local\Temp\tmp3yee20y7
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a known and legitimate source, with proper DKIM, SPF, and DMARC authentication passing.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3137, Completion=50, Total=3187
+------------------------------
+2025-09-11 03:24:08,652 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 03:24:10,730 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 03:24:43,225 - File: C:\Users\umer\AppData\Local\Temp\tmpyew9rk8e
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a well-known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3137, Completion=54, Total=3191
+------------------------------
+2025-09-11 03:28:55,790 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 03:29:27,771 - File: C:\Users\umer\AppData\Local\Temp\tmplw7ukgp4
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a well-known and legitimate source, and all authentication checks (DKIM, SPF, DMARC) have passed.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3137, Completion=54, Total=3191
+------------------------------
+2025-09-11 03:31:02,456 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 03:31:35,087 - File: C:\Users\umer\AppData\Local\Temp\tmpv_5myihn
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a known and legitimate source, with proper DKIM, SPF, and DMARC authentication.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3137, Completion=49, Total=3186
+------------------------------
+2025-09-11 03:33:58,975 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 03:34:31,643 - File: C:\Users\umer\AppData\Local\Temp\tmp7vdb3y0f
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a known and legitimate source, with proper DKIM, SPF, and DMARC authentication.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3137, Completion=49, Total=3186
+------------------------------
+2025-09-11 03:34:33,064 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 04:09:52,120 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 04:10:24,305 - File: C:\Users\umer\AppData\Local\Temp\tmp_cvqvql0
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a known and legitimate source, with valid DKIM, SPF, and DMARC authentication results.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3137, Completion=50, Total=3187
+------------------------------
+2025-09-11 04:10:27,878 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-11 04:11:00,558 - File: C:\Users\umer\AppData\Local\Temp\tmpuk4e4hqu
+Result: {
+    "verdict": "\u2705 Legit",
+    "reason": "The email is from LinkedIn, a known and legitimate source, with valid DKIM, SPF, and DMARC authentication.",
+    "suspicious_elements": []
+}
+Tokens: Prompt=3137, Completion=49, Total=3186
+------------------------------
+2025-09-12 01:34:57,942 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:02,291 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:04,660 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:07,000 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:08,649 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:11,059 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:13,148 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:15,117 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:16,817 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:19,540 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:21,728 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:23,709 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:26,002 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:28,132 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:35,183 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:36,902 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:39,072 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:41,109 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:43,360 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 01:35:45,097 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:11,284 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:13,460 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:15,544 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:18,250 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:20,444 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:23,895 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:27,175 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:29,030 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:31,076 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:33,028 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:34,897 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:36,694 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:38,752 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:40,930 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:43,250 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:47,410 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:50,386 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:53,416 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:55,359 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-12 02:02:57,304 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:33:43,262 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:33:49,159 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:33:52,839 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:33:56,440 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:33:59,433 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:02,551 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:04,733 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:07,928 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:10,354 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:12,546 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:17,081 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:19,915 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:22,138 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:24,502 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:26,925 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:29,879 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:33,306 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:35,381 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:38,505 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:34:42,278 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:37:57,536 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 02:38:06,946 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 03:14:42,562 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 03:14:43,953 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 03:14:59,750 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 03:15:00,053 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 03:15:00,842 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 03:15:01,165 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 03:15:04,405 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-11-22 03:15:04,405 - Retrying request to /openai/v1/chat/completions in 16.000000 seconds
+2025-11-22 03:15:22,268 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 03:15:23,383 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 03:29:15,605 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 03:29:16,766 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 03:49:42,845 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 03:49:44,123 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 03:50:53,393 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 03:50:54,502 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 03:51:58,852 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 03:51:59,977 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 03:54:43,084 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 03:54:44,286 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 03:56:21,677 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 03:56:22,866 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 03:57:30,991 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 03:57:32,238 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 03:59:43,646 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 03:59:44,844 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 04:01:47,950 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 04:01:49,165 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 04:03:53,287 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 04:03:54,568 - HTTP Request: POST https://api.phidata.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-11-22 15:40:50,146 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:40:54,550 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:40:57,399 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:01,517 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:03,355 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:05,194 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:07,661 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:11,045 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:14,719 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:17,102 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:18,938 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:21,061 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:22,959 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:25,574 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:27,537 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:29,366 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:31,335 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:33,072 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:34,813 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:41:36,967 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:04,296 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:06,204 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:08,237 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:10,577 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:12,624 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:14,615 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:16,765 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:18,859 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:20,875 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:22,995 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:24,911 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:26,875 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:29,332 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:31,233 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:33,642 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:36,001 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:37,893 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:40,661 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:42,542 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:45:45,074 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:47:56,147 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:47:58,022 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:00,424 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:05,532 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:07,525 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:09,332 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:11,465 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:13,301 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:15,328 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:17,339 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:19,194 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:21,150 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:23,536 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:25,529 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:27,453 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:29,575 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:31,340 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:33,770 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:35,672 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:48:37,525 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:49:12,476 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:49:36,077 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:50:15,438 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:50:28,834 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:21,041 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:23,021 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:24,927 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:27,115 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:29,193 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:31,746 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:34,315 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:36,230 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:38,559 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:40,872 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:42,975 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:45,423 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:47,606 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:49,338 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:51,121 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:53,466 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:55,683 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:57,723 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:56:59,801 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 15:57:01,699 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:04:32,217 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:06:14,612 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:15:51,878 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:15:53,790 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:15:55,782 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:15:57,855 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:15:59,785 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:01,790 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:03,954 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:05,741 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:07,777 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:10,751 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:13,221 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:15,510 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:17,428 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:19,509 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:21,384 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:23,855 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:25,737 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:27,667 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:29,558 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:31,543 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:16:54,293 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:17:11,734 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:17:52,107 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:20:50,263 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:20:52,598 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:20:55,076 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:20:57,883 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:20:59,869 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:01,722 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:04,278 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:06,191 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:08,154 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:10,035 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:13,178 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:15,052 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:16,867 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:19,268 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:21,226 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:23,069 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:25,388 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:27,290 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:29,295 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:31,243 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:21:46,299 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:22:21,191 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:20,391 - Retrying request to /chat/completions in 0.381543 seconds
+2025-11-22 16:30:27,228 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:29,123 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:31,439 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:34,076 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:36,213 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:38,763 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:41,645 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:43,650 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:46,442 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:49,058 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:51,053 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:53,116 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:55,005 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:56,927 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:30:59,235 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:31:01,263 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:31:03,323 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:31:05,837 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:31:07,583 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:31:09,694 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-22 16:34:03,739 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:00,192 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:04,450 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:07,266 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:09,880 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:12,129 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:15,223 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:17,800 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:20,674 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:23,041 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:25,816 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:29,014 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:31,137 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:33,077 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:35,140 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:37,193 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:39,601 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:41,864 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:44,130 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:46,516 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:48:48,470 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:49:20,553 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 01:49:43,801 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:29:37,051 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:29:41,262 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:29:43,173 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:29:45,059 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:29:47,519 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:29:50,116 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:29:53,202 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:29:55,317 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:29:58,107 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:30:00,325 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:30:02,153 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:30:03,961 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:30:05,884 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:30:08,141 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:30:10,764 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:30:12,765 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:30:15,280 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:30:17,354 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:30:19,434 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:30:21,354 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:30:56,514 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:27,756 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:30,095 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:32,383 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:34,342 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:37,546 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:40,004 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:42,333 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:44,151 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:46,202 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:48,125 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:50,127 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:51,934 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:54,395 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:56,356 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:45:58,498 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:46:01,319 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:46:03,159 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:46:05,150 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:46:07,072 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:46:09,132 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:46:51,162 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:06,523 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:08,916 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:10,771 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:13,183 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:15,083 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:17,646 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:19,968 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:21,845 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:24,073 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:26,164 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:28,795 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:30,741 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:32,441 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:34,092 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:35,779 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:38,568 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:40,519 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:42,577 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:45,040 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:53:47,005 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 02:56:25,871 - Retrying request to /chat/completions in 0.459117 seconds
+2025-11-23 02:56:27,485 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:00:39,165 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:00:41,631 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:00:43,477 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:00:45,531 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:00:48,011 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:00:51,043 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:00:53,479 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:00:55,369 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:00:57,574 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:00:59,441 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:01:01,710 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:01:03,650 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:01:05,800 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:01:08,300 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:01:10,883 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:01:12,658 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:01:14,669 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:01:16,610 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:01:18,875 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:01:20,992 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:01:44,836 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:12:47,070 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:12:48,862 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:12:50,582 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:12:53,001 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:12:55,037 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:12:57,461 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:12:59,588 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:13:01,600 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:13:03,967 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:13:05,807 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:13:08,245 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:13:10,062 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:13:11,777 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:13:13,746 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:13:16,036 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:13:18,496 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:13:20,335 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:13:22,048 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:13:23,973 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:13:26,640 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:23:49,940 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:23:52,648 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:23:54,298 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:23:56,218 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:23:58,136 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:00,279 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:02,151 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:03,985 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:06,210 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:08,586 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:10,777 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:13,075 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:16,249 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:18,061 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:20,237 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:22,583 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:25,717 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:27,563 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:29,854 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:24:32,080 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:25:13,742 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:26:01,785 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:27:42,517 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:27:44,439 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:27:46,112 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:27:48,120 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:27:50,116 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:27:52,191 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:27:54,202 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:27:56,388 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:27:59,145 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:28:01,462 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:28:03,548 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:28:06,295 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:28:08,258 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:28:10,187 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:28:12,592 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:28:17,089 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:28:19,103 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:28:20,959 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:28:22,923 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:28:24,937 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:29:17,458 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:30:19,446 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:11,346 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:13,269 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:15,854 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:17,605 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:19,503 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:22,082 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:24,292 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:26,598 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:28,408 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:30,680 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:32,593 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:34,479 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:36,372 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:38,586 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:40,568 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:42,561 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:44,966 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:47,175 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:49,164 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:35:51,698 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:36:12,669 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:26,802 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:28,836 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:31,064 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:33,451 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:35,529 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:37,453 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:39,336 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:41,519 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:43,703 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:45,709 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:47,661 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:49,477 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:51,904 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:53,949 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:56,054 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:40:57,942 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:41:00,058 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:41:01,836 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:41:04,997 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:41:07,036 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:41:40,677 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:42:59,395 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:03,116 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:05,279 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:09,079 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:11,043 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:13,093 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:16,279 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:18,306 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:20,268 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:22,432 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:25,028 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:27,118 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:28,871 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:32,828 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:36,053 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:37,883 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:40,419 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:42,412 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:44,399 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:43:46,241 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:44:10,300 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:46:20,546 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:46:30,606 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:46:57,406 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:47:49,965 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:47:52,017 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:47:53,753 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:47:55,503 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:47:57,530 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:47:59,799 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:02,156 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:04,373 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:07,039 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:08,909 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:11,269 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:13,161 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:15,164 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:16,818 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:18,898 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:20,775 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:22,673 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:24,344 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:26,188 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:28,035 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 03:48:52,680 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:50:31,317 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:50:36,024 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:50:39,475 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:50:41,481 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:50:43,886 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:50:46,448 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:50:48,434 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:50:50,421 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:50:52,407 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:50:54,351 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:50:57,086 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:51:00,943 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:51:03,440 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:51:05,423 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:51:07,401 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:51:09,324 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:51:11,372 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:51:13,220 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:51:15,980 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:51:18,136 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:53:45,246 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:53:47,283 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:53:49,301 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:53:51,272 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:53:52,943 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:53:54,662 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:53:56,661 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:53:58,665 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:54:00,827 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:54:02,620 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:54:04,479 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:54:06,990 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:54:08,840 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:54:10,994 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:54:12,962 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:54:14,712 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:54:16,622 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:54:18,558 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:54:20,268 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:54:21,852 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:24,553 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:26,778 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:28,761 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:30,468 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:33,007 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:34,752 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:36,955 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:38,889 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:41,232 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:43,022 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:44,797 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:46,788 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:49,422 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:51,344 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:54,204 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:55,947 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:57,816 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:55:59,691 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:56:01,594 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:56:03,462 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:57:46,281 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:57:48,537 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:57:50,255 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:57:52,270 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:57:55,120 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:57:57,248 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:57:59,458 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:58:02,794 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:58:05,449 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:58:07,561 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:58:09,602 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:58:11,967 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:58:14,273 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:58:16,827 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:58:18,810 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:58:21,476 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:58:23,425 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:58:25,482 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:58:27,456 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 13:58:29,601 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:00:45,615 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:00:48,163 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:00:50,780 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:00:53,754 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:00:55,758 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:00:57,481 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:00:59,480 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:01:01,538 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:01:04,533 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:01:06,827 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:01:09,056 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:01:11,403 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:01:13,655 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:01:15,790 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:01:17,779 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:01:19,695 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:01:21,886 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:01:23,615 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:01:25,600 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:01:27,575 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:02:02,950 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:09,378 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:11,978 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:14,166 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:16,330 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:18,809 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:20,718 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:22,909 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:25,324 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:28,612 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:30,588 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:33,088 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:35,367 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:37,108 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:38,871 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:40,624 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:42,758 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:44,602 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:47,425 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:49,239 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:12:51,137 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:13:06,082 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:29,046 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:31,766 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:33,498 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:35,519 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:38,039 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:39,795 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:41,797 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:43,512 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:45,683 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:47,298 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:49,418 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:51,542 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:53,196 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:54,962 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:56,599 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:14:58,514 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:15:00,459 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:15:02,287 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:15:04,080 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:15:06,085 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:15:28,695 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:00,945 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:02,691 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:04,882 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:06,854 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:08,882 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:10,510 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:12,908 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:14,897 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:17,604 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:19,408 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:21,245 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:23,524 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:25,215 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:27,031 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:28,754 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:30,439 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:32,362 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:34,363 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:36,359 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:20:38,339 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:21:03,815 - Retrying request to /chat/completions in 0.472803 seconds
+2025-11-23 14:21:06,081 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:21:55,283 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:22:15,068 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:22:25,832 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:04,683 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:06,871 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:09,275 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:11,186 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:13,891 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:15,576 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:17,185 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:19,410 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:22,083 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:23,869 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:25,789 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:28,555 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:30,395 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:31,976 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:33,802 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:35,602 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:37,466 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:39,337 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:41,471 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:23:43,636 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:24:23,422 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:12,109 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:14,467 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:16,335 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:18,055 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:20,164 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:22,452 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:24,293 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:26,059 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:28,806 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:30,720 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:32,758 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:34,932 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:36,636 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:38,519 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:40,310 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:42,647 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:44,537 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:46,558 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:48,768 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:29:50,569 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:30:08,176 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:01,987 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:04,347 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:06,381 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:08,140 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:09,789 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:11,649 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:13,391 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:15,449 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:17,855 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:19,643 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:22,117 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:24,352 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:26,185 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:27,836 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:29,855 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:31,597 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:33,315 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:35,123 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:36,968 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:32:38,784 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:34:37,695 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:34:40,003 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:34:41,971 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:34:43,876 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:34:45,899 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:34:48,487 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:34:50,414 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:34:52,401 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:34:54,874 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:34:56,797 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:34:58,789 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:35:00,445 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:35:02,132 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:35:04,170 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:35:06,260 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:35:08,337 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:35:10,194 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:35:12,635 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:35:14,541 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:35:16,445 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-23 14:35:37,001 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
